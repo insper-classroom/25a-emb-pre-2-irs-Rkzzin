@@ -25,12 +25,12 @@ int main() {
 
   while (true) {
     if (btn_flag == 1) {
-      printf("rise\n");
+      printf("fall\n");
       btn_flag = 0;
     }
 
     if (btn_flag == 2) {
-      printf("fall\n");
+      printf("rise\n");
       btn_flag = 0;
     }
   }
